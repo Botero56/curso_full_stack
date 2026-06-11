@@ -1,0 +1,27 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "primer proyecto con express y typeScript",
+  "homepage": "https://github.com/Botero56/curso_full_stack#readme",
+  "bugs": {
+    "url": "https://github.com/Botero56/curso_full_stack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Botero56/curso_full_stack.git"
+  },
+  "license": "ISC",
+  "author": "Samuel Botero",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
