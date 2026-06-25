@@ -3,17 +3,11 @@ import { Router } from "express";
 
 const router = Router()
 
+/**Autentification and register */
 
-router.get('/', (req, res) => {
-    res.send('hola mundo en express doinf')
-})
+router.post('/auth/register', (req, res) => {
+    console.log(req.body)
+} )
 
-router.get('/nosotros', (req, res) => {
-    res.send('hola mundoinf')
-})
-
-router.get('/blog', (req, res) => {
-    res.send('blog')
-})
 
 export default router
