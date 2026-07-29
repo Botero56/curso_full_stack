@@ -17,3 +17,37 @@ configuracion para que express funcione con typescript
     },
     "include": ["src/**/*.ts"]
 }
+
+¿que son los orm?
+
+es una tecnica que se utiliza donde los datos de una base de datos son tratados como objetos.
+
+los orms se usan para escribir codigo que interactue con una base de datos.
+
+la velocidad de desarrollo que tienen ya que tienen una gran cantidad de metodos para crear, listar, actualizar, y eliminar datos.
+
+por ultimo, la suguridad.
+
+ejemplos 
+
+insert into 'users' ('name') values('juan') <- sql
+
+users.create({name: 'juan'}) <- codigo orm
+
+los orms mas comunes en node.js
+
+-sequelize
+-mongoose
+-prisma
+-typeorm
+
+
+mongoose
+
+permite definir modelos con la forma que tendra los datos almacenados
+
+
+devtree
+Devtree2026!
+
+mongodb+srv://boterosamuel3_db_user:cuHuh62NvvH2BnGV@cluster0.x8041d2.mongodb.net/?appName=Cluster0

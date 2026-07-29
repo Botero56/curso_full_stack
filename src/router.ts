@@ -6,8 +6,16 @@ const router = Router()
 /**Autentification and register */
 
 router.post('/auth/register', (req, res) => {
-    console.log(req.body)
+    console.log(req.body) 
+    
+} )
+
+
+router.get('/sisarras', (req, res) => {
+    console.log("sisas") 
+    
 } )
 
 
 export default router
+
