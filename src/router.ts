@@ -1,20 +1,18 @@
 import { Router } from "express";
+import User from "./models/User";
 
 
 const router = Router()
 
-/**Autentification and register */
+/**Autentification and register 
 
-router.post('/auth/register', (req, res) => {
-    console.log(req.body) 
-    
+router.post('/auth/register', async (req, res) => {
+    await User.create(req.body)
 } )
-
-
-router.get('/sisarras', (req, res) => {
-    console.log("sisas") 
-    
-} )
+*/
+router.post('/',(req, res)  => {
+    res.send('hola')
+})
 
 
 export default router
